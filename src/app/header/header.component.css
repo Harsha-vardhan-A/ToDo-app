@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin: 40px;
+    background-color: aquamarine;
+    padding: 40px;
+    border-radius: 10px;
+}
+label{
+    padding: 4px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}

@@ -1,0 +1,14 @@
+li{
+    margin: 20px 40px;
+}
+div{
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow-y: scroll;
+    height: 300px;
+}
+div::-webkit-scrollbar
+{
+    display: none;
+}
