@@ -26,7 +26,14 @@ export class HeaderComponent {
   }
   passData()
   {
-    this.data.alldetails.push({name:this.name,desc:this.discription});
+    if(this.name==''||this.discription=='')
+    {
+      alert("enter data");
+    }
+    else
+    {
+      this.data.alldetails.push({name:this.name,desc:this.discription});
+    }
   }
 }
 
